@@ -9,6 +9,10 @@ node_modules/
 **/.env
 **/.env.local
 
+# Allow committing environment templates
+!.env.example
+!**/.env.example
+
 # Build output
 dist/
 **/dist/
